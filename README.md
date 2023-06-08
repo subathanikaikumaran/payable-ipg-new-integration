@@ -12,9 +12,9 @@ Body: `json`
 
 ```json
 {
-    "invoiceId": "INVOICE_ID",
-    "merchantKey": "A75BCD8EF30E529A",
-    "merchantToken": "B8727C74D29E210F9A297B65690C0140",
+    "invoiceId": "IN902734832",
+    "merchantKey": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "merchantToken": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     "integrationType": "MSDK",
     "integrationVersion": "1.0.1",
     "refererUrl": "https://www.yourdomain.lk/check_status.php",
@@ -183,8 +183,8 @@ curl_setopt_array($curl, array(
     CURLOPT_CUSTOMREQUEST => 'POST',
     CURLOPT_POSTFIELDS => '{
     "invoiceId": "'.rand().'",
-    "merchantKey": "A75BCD8EF30E529A",
-    "merchantToken": "B8727C74D29E210F9A297B65690C0140",
+    "merchantKey": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "merchantToken": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     "integrationType": "MSDK",
     "integrationVersion": "1.0.1",
     "refererUrl": "https://www.yourdomain.lk/check_status.php",
